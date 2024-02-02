@@ -87,4 +87,4 @@ To play the video with updated captions, we use MPC-BE (Media Player Classic - B
 2. **Set the Reload Captions Shortcut:**
    - Open MPC-BE.
    - Go to Options > Player > Keys.
-   - Search for "reload" and assign a shortcut key combination (e.g., `Ctrl + Shift + Alt + R`) for "Reload Subtitles".
+   - Search for "reload" and assign a shortcut key combination (`Ctrl + Shift + Alt + R`) for "Reload Subtitles".
