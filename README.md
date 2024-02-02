@@ -1,7 +1,7 @@
 
 # Live Video Transcription and Translation Tool
 
-This tool allows you to perform live video transcription and translation using Python. It consists of three main steps: downloading the live stream, transcribing and translating the video, and playing the video with updated captions.
+This tool allows you to perform real-time live video transcription and translation using Python. It consists of three main steps: downloading the live stream, transcribing and translating the video, and playing the video with updated captions.
 
 ## Workflow Overview:
 
