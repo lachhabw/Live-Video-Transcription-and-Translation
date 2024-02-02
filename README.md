@@ -117,13 +117,13 @@ CAPTION_FILE = captions.srt
 
 The transcriber configuration file is used to configure parameters related to video transcription and translation. Here are the parameters that can be configured in `transcriber.ini`:
 
-- **T_DELAY:** Specifies the delay in seconds for each transcription segment. It acts as a buffer, meaning that a part won't be translated until the accumulated time exceeds this delay.
-- **WAIT_TIME:** Specifies the time in seconds to check if the last non-translated part exceeds the delay or not yet.
+- **T_DELAY:** Specifies the delay in seconds for each transcription segment. It acts as a buffer, meaning that a part won't be translated until the accumulated time exceeds this delay. Default: 30 seconds.
+- **WAIT_TIME:** Specifies the time in seconds to check if the last non-translated part exceeds the delay or not yet. Default: 1 second.
 - **TRANSLATE:** Specifies whether translation is enabled (True/False).
-- **BATCH_SIZE:** Specifies the number of sentences or captions translated at a time.
+- **BATCH_SIZE:** Specifies the number of sentences or captions translated at a time. Default: 16.
 - **SOURCE_LANG:** Specifies the source language for translation.
 - **TARGET_LANG:** Specifies the target language for translation.
-- **NUM_WORKERS:** Specifies the number of parallel translation processes. This parameter influences the speed of translation.
+- **NUM_WORKERS:** Specifies the number of parallel translation processes. This parameter influences the speed of translation. Default: 4.
 - **INPUT_VIDEO:** Specifies the input video file.
 - **CAPTION_FILE:** Specifies where to save the captions srt file.
 - **MODEL:** Specifies the model used for transcription. Available models include various versions: tiny / tiny.en, small / small.en, medium / medium.en, large-v3. **Note** that the `.en` suffix indicates English-only models. **Recommended**: medium and large-v3. The models will be downloaded and saved in the user's `.cache` directory for Hugging Face models the first time they are called.
