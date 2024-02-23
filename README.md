@@ -72,7 +72,7 @@ You have two options for running the tool: using a Python environment or using p
      ```
      .\local\Scripts\python.exe player.py
      ```
-   - **Note:** Make sure to config `transcriber.ini` and  `player.ini` before running.
+   - **Note:** Before running, ensure to configure `transcriber.ini` and `player.ini`. Additionally, make sure to have `ffmpeg` installed on your system and available from the PATH environment variable to be called directly, or alternatively, place the executables in the same directory as the scripts.
 
 #### Using Provided Executables:
 
